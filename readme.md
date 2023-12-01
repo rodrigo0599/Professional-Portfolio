@@ -19,7 +19,9 @@ The website is structured into three primary sections: _About Me_, _My Work_, an
 
 Feel free to browse, explore, and connect!
 
-[Access the website here](#) _(Insert your website link)_
+Access the website here: (https://rodrigo0599.github.io/Professional-Portfolio/)
+
+![Portfolio Website](./assets/images/main.png)
 
 ## License
 
