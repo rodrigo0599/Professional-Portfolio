@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./images/paisaje.jpg') no-repeat center center fixed; 
+    /* Ajusta la ruta a la ubicación de tu imagen */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .name
+  {
+    display: block;
+    padding: 12px 14px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+  }
+  .textW {
+    color: rgb(0, 0, 0);
+    padding: 0px 20px;
+    text-align: center;
+    
+}
+.container{
+    margin: 50px 200px;
+    display: flex; /* Utilizar flexbox para colocar los elementos horizontalmente */
+            justify-content: space-between;
+}
+
+.about
+{
+    width: 500px; /* Ancho del div */
+    height: 500px; /* Altura del div */
+    max-width: 100%;
+    background-color: rgb(226, 226, 226); /* Color de fondo blanco */
+    border-radius: 10px;
+}
+
+.im{
+    width: 160px; /* Ancho deseado */
+    height: auto;
+    
+    padding: 12px 14px;
+    border-radius: 20px;
+}
+.parrf{
+    padding: 16px 18px;
+}
+
+.spacework
+{
+    width: 300px; /* Ancho del div */
+    height: 200px; /* Altura del div */
+    background-color: rgb(226, 226, 226); /* Color de fondo blanco */
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.imgwork
+{
+  max-width: 100%;
+    width: 270px; /* Ancho deseado */
+    padding: 0px 14px;
+    border-radius: 20px;
+}
+.imgwork2
+{
+  max-width: 100%;
+    width: 270px; /* Ancho deseado */
+    padding: 12px 14px;
+    border-radius: 20px;
+}
+
+.span1{
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 14px;
+}
+.bg{
+  width: 2000px; /* Ancho del div */
+  height: 100px; /* Altura del div */
+  background-color: rgb(226, 226, 226); /* Color de fondo blanco */
+  border-radius: 10px;
+  max-width: 100%;
+  display: flex; /* Utilizar flexbox para colocar los elementos horizontalmente */
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.fa-github
+{
+  font-size: 4em;
+  margin-left: 10px;
+  
+}
+.fa-envelope
+{
+  font-size: 4em;
+  margin-left: 60px;
+  margin-right: 10px;
+  
+}
+

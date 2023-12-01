@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="navbar">
+        <ul>
+            <li onclick="scrollToSection('seccion1')"><a class="active" href="#">About Me</a></li>
+            <li onclick="scrollToSection('seccion2')"><a href="#2">My Work</a></li>
+            <li onclick="scrollToSection('seccion3')"><a href="#2">Contact Me</a></li>
+            <span class="name">Rodrigo Salvatierra</span>
+          </ul>
+    </div>
+
+<section id="seccion1" class="container">
+    
+    <div class="about">
+        
+        <img class="im" src="./assets/images/rod.jpg"  alt="">
+        <H1 class="textW">About Me</H1>
+        <p class="parrf">Hello! I'm Rodrigo Rivera, currently enhancing my tech skills at the Rutgers Bootcamp. Driven by a passion for technology, my journey here involves diving deep into programming basics, algorithms, and data structures. It's more than learning; it's about personal and professional growth.
+
+            My diverse background is marked by curiosity and problem-solving skills, which have helped me adapt to new challenges and technologies. My aim? To excel academically and apply my skills in practical, impactful ways in the tech industry.</p>
+    </div>
+   
+  
+
+</section>
+<br><br><br><br>
+<H1 class="textW">My Work</H1>
+<section id="seccion2" class="container ">
+    
+  
+
+    <div class="spacework">
+        <h1 class="textW">Quiz Challenge</h1>
+        <a href="link">
+    <img class="imgwork" src="./assets/images/quizChallenge.jpg" alt="">
+    </a>
+    </div>
+    
+    <div class="spacework">
+        <h1 class="textW">TrailBlazer</h1>
+        <a href="https://a-new-trail-blazer-e459cac1a517.herokuapp.com/">
+    <img class="imgwork" src="./assets/images/TrailBlazer.png" alt="">
+    </a>
+    </div>
+   
+    <div class="spacework">
+        <span class="span1">Work Day Scheduler</span>
+        <a href="https://rodrigo0599.github.io/Work-Day-Scheduler/">
+    <img class="imgwork2" src="./assets/images/WorkDayScheduler.png" alt="">
+    </a>
+    </div>
+    
+    <div class="spacework">
+        <h1 class="textW">Multiverse</h1>
+        <a href="link">
+    <img class="imgwork" src="./assets/images/Seal-proyect-1.png" alt="">
+    </a>
+    </div>
+    
+</section>
+<br><br><br><br><br>
+<H1 class="textW">Contact Me</H1>
+<section id="seccion3" class="bg">
+    
+
+    <h1>Github</h1>
+    
+    <a href="https://github.com/rodrigo0599"> <div><i class="fab fa-github"></i></div></a>
+
+    
+    <div> <a href="mailto:rodrigo0599@hotmail.com"><i class="fas fa-envelope"></i></a> </div><h1>Email Me</h1>
+    
+</section>
+
+<script>
+    function scrollToSection(sectionId) {
+        var targetSection = document.getElementById(sectionId);
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+<script src="https://kit.fontawesome.com/f9b22ea73e.js" crossorigin="anonymous"></script>
+</body>
+</html>
