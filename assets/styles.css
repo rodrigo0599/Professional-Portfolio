@@ -110,15 +110,13 @@ ul {
   padding: 20px 14px;
 }
 .bg{
-  width: 2000px; /* Ancho del div */
+  width: 100%; /* Ancho del div */
   height: 100px; /* Altura del div */
   background-color: rgb(226, 226, 226); /* Color de fondo blanco */
   border-radius: 10px;
-  max-width: 100%;
   display: flex; /* Utilizar flexbox para colocar los elementos horizontalmente */
   justify-content: center;
   align-items: center;
- 
 }
 
 .fa-github
