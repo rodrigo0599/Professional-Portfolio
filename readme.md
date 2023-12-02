@@ -19,7 +19,7 @@ The website is structured into three primary sections: _About Me_, _My Work_, an
 
 Feel free to browse, explore, and connect!
 
-Access the website here: https://rodrigo0599.github.io/Professional-Portfolio/
+Access the website here: https://rodrigo-professional-portfolio.netlify.app/
 
 ![Portfolio Website](./assets/images/main.png)
 
